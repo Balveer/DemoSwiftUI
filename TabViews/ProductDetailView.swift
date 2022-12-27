@@ -12,7 +12,6 @@ struct ProductDetailView: View {
     var selectedImage : String
     var selectedRating : String
     var selectID : String
-
     var body: some View {
         VStack(alignment: .center){
 //            Image(systemName: "house")

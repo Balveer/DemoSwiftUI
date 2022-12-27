@@ -98,7 +98,6 @@ enum PurchaseTypeEnum: String, Codable {
     case purchaseTypeCase = "Case"
 }
 
-
 class Api : ObservableObject{
     @Published var products = [Product]()
     

@@ -7,7 +7,6 @@
 import SwiftUI
 
 struct HomeView: View {
-
     @State var productArray:[Product] = []
     @State private var showLoader: Bool = false
     @ObservedObject private var favObj:FavObj = FavObj()

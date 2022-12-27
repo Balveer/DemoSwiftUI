@@ -11,7 +11,6 @@ import SwiftUI
 struct HomeTabbar: View {
 
     @State private var defaultView : Int = 2
-
     var body: some View {
         TabView(selection: $defaultView){
             HomeView()

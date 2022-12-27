@@ -16,6 +16,7 @@ struct FavView: View {
            // List(productArray, id:\ .id ){ planet in
             VStack (alignment: .center){
                         HStack{
+                            
                             AsyncImage(url: URL(string: "" ?? "Title")) { image in
                                        image
                                            .resizable()

@@ -7,9 +7,8 @@
 
 import Foundation
 
-class HappyListAPICall:ObservableObject {
+class ListAPICall:ObservableObject {
     @Published var productListArray: [Product] = []
     func apiHit(){
-        
     }
 }

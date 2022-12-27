@@ -12,7 +12,6 @@ final class FavObj : ObservableObject{
     @Published var favArray:String = String()
 }
 
-
 @main
 struct DemoSwiftUIApp: App {
     @ObservedObject private var prodID: ProductID = ProductID()
